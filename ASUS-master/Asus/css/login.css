@@ -1,0 +1,92 @@
+#wrap-login{
+	width: 100%;
+	height: 400px;
+}
+#login{
+	height: 400px;
+	width: 78%;
+	margin: 0 auto;
+}
+#pic{
+	margin-top: 20px;
+	float: left;
+}
+#form{
+	width: 340px;
+	height: 330px;
+	border: 2px solid #E4E4E4;
+	float:right;
+	margin-top: 20px;
+}
+#form h3{
+	border-bottom: 1px solid #E4E4E4;
+	line-height: 44px;
+	padding-left: 20px;
+	color: blue;
+	color: #1566c0;
+}
+#form .login{
+	height:240px;
+	overflow: hidden;
+}
+#username,#password{
+	width: 286px;
+	height: 30px;
+	border: 1px solid #E4E4E4;
+	display: block;
+	margin: 20px auto;
+	padding-left: 10px;
+	background: none;
+}
+.login input{
+	margin-left: 20px;
+	margin-top: 18px;
+}
+.login span{
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 5px;
+	margin-top: 12px;
+}
+#form .login div:last-child input{
+	display: inline-block;
+	width: 80px;
+	height: 37px;
+	background: orangered;
+	border: none;
+	text-align: center;
+	line-height: 37px;
+	color: white;
+	margin-top: 25px;
+}
+#form .login div:last-child a{
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 10px;
+	color:#0000FF;
+}
+#form p{
+	height: 45px;
+	background: #E4E4E4;
+}
+#form p span:first-child a{
+	color: red;
+	font-size: 12px;
+	padding-left: 20px;
+	line-height: 45px;
+}
+#form p span:last-child{
+	display: block;
+	width: 68px;
+	height: 24px;
+	border: 1px solid #d4d4d4;
+	float: right;
+	margin-top:10px;
+	margin-right: 20px;
+	text-align: center;
+	background: #fafafa;
+}
+#form p span:last-child a{
+	font-size: 12px;
+	color: black;
+}

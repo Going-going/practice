@@ -1,0 +1,112 @@
+#wrap-register{
+	width: 100%;
+	height: 443px;
+}
+#register{
+	width: 78%;
+	height: 443px;
+	margin: 0 auto;
+	
+}
+#regis{
+	width: 628px;
+	height: 438px;
+	border: 1px solid #EBEBEB;
+	float: left;
+	font-size: 12px;
+}
+#regis h3{
+	border-bottom: 1px solid #A4A4A4;
+	line-height: 44px;
+	color: #619EF2;
+	padding-left: 24px;
+	font-size: 20px;
+}
+#regis input{
+	width: 287px;
+	height: 18px;
+	border: 1px solid #E4E4E4;
+	background: none;
+	margin: 15px 0;
+	padding:5px;
+}
+#regis input:nth-of-type(4){
+	width: 88px;
+}
+#regis input:nth-of-type(5){
+	width: 88px;
+	height: 28px;
+	margin-bottom: 0px;
+}
+#regis input:nth-of-type(6){
+	width: 14px;
+	height: 14px;
+	margin-left: 60px;
+	margin-bottom: 10px;
+}
+#regis .confirm{
+	width: 68px;
+	height: 30px;
+	border: 1px solid #E4E4E4;
+	font-size: 16px;
+	background: #A4A4A4;
+}
+#regis button{
+	width: 130px;
+	height:30px;
+	background: orangered;
+	border: none;
+	line-height: 30px;
+	color: white;
+	margin-left: 10px;
+}
+#regis b{
+	display: inline-block;
+	width: auto;
+	height: 15px;
+	margin-left: 15px;
+	color: red;
+}
+#regis .box{
+	width: 504px;
+	margin: 0 auto;
+}
+#regis .res{
+	display: block;
+	width: 80px;
+	height: 30px;
+	background: orangered;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 60px;
+	margin-top: 20px;
+}
+#register .border1{
+	height: 290px;
+	width: 1px;
+	border-left:1px dashed #BABABA ;
+	float: left;
+	margin-left:25px;
+}
+#register .right{
+	width: 172px;
+	height: 72px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+#register .right p{
+	font-size: 12px;
+	line-height: 26px;
+}
+#register .right a{
+	display: block;
+	width: 123px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	color: white;
+	font-size: 15px;
+	background: #db2029;
+}

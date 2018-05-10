@@ -1,0 +1,320 @@
+/*顶部*/
+#wrap-top{
+	width: 100%;
+	height: 32px;
+	background: black;
+	position: relative;
+	z-index: 6;
+}
+#top{
+	width: 97%;
+	height: 32px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+#top a:hover{
+	color: #E4E4E4;
+}
+#top p{
+	line-height: 32px;
+	float: left;
+	color: #a4a4a4;
+}
+#top span{
+	color: #7C7C7C;
+}
+#top span a{
+	line-height: 32px;
+	color:white;
+	padding-left: 8px;
+}
+#top .right{
+	float: right;
+}
+#top .right a{
+	color: white;
+	line-height: 32px;
+	display: inline-block;
+	padding-right: 10px;
+}
+#top .right a:hover{
+	color: #E4E4E4;
+}
+/*商标栏*/
+#wrap-logo{
+	width: 100%;
+	height: 115px;
+	background: white;
+	position: relative;
+	z-index: 6;
+}
+#logo{
+	width: 97%;
+	height: 115px;
+	margin:0 auto;
+}
+#logo h1{
+	float: left;
+	margin-top: 40px;
+}
+#logo span a{
+	display: inline-block;
+	margin-top: 55px;
+	margin-left: 10px;
+	font-size: 20px;
+	color: #bababa;
+}
+#logo #seach{
+	width: 372px;
+	height: 18px;
+	padding: 10px;
+	float: right;
+	border: 1px solid #E4E4E4;
+	margin-top: 35px;
+}
+#logo .big{
+	display: block;
+	width: 38px;
+	height: 38px;
+	background:url(../img/vasu_logo_big.png) no-repeat center center orange;
+	float: right;
+	margin:35px 0px 0 10px;
+}
+#logo p a{
+	display: block;
+	float: right;
+	color: #666;
+	font-size: 12px;
+	margin-right: 310px;
+	margin-top: -5px;
+}
+/*导航栏*/
+#wrap-nav{
+	width:100%;
+	height: 40px;
+	background: orangered;
+	position: relative;
+	z-index: 5;
+}
+#nav{
+	width: 97%;
+	height: 40px;
+	margin:0 auto;
+	position: relative;
+	z-index: 5;
+}
+#nav li{
+	float: left;
+}
+#nav li a{
+	display: block;
+	height: 18px;
+	color: white;
+	padding: 11px 40px;
+	font-size: 12px;
+}
+#nav li:first-child a{
+	width: 80px;
+	text-align: center;
+	background: orange;
+	margin-right: 20px;
+}
+#nav div .bg-shopcar{
+	display: block;
+	width: 220px;
+	text-align: center;
+	padding-left: 20px;
+	line-height: 40px;
+	color: white;
+	font-size: 12px;
+	background: url(../img/nav_shopping.png) no-repeat 60px center ;
+	margin-right: 55px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index:9;
+}
+#nav a:hover{
+	background: orange;
+}
+#nav .shopcar{
+	width:238px;
+	max-height: 510px;
+	min-height: 100px;
+	border: 1px solid orangered;
+	border-top: none;
+	background: white;
+	text-align: center;
+	font-size: 12px;
+	position: absolute;
+	top: 38px;
+	right: 55px;
+	z-index: 3;
+	display: none;
+	overflow-y: auto;
+}
+#nav .shopcar dl{
+	width: 238px;
+	height: 116px;
+	border-bottom: 1px dashed #636363;
+	position: relative;
+}
+#nav .shopcar dt{
+	width: 60px;
+	height: 60px;
+	border: 1px solid #E4E4E4;
+	float:left;
+	margin: 10px;
+}
+#nav .shopcar dt img{
+	width: 100%;
+}
+#nav .shopcar dd{
+	width: 134px; 
+	height: 100px;
+	float: left;
+	margin-top: 10px;
+}
+#nav .shopcar dd p{
+	font-size: 12px;
+	height: 18px;
+	text-align:left;
+}
+#nav .shopcar dd p:nth-of-type(1){
+	height: 52px;
+	 overflow: hidden;
+}
+#nav .shopcar dl button{
+	width: 30px;
+	height: 16px;
+	text-align: center;
+	line-height: 16px;
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	border: none;
+	font-size: 12px;
+	color: blue;
+}
+/*footer*/
+#wrap-footer{
+	width: 100%;
+	height: 263px;
+	background: #E4E4E4;
+	margin-top: 40px;
+}
+#footer1{
+	width: 97%;
+	height: 263px;
+	margin: 0 auto;
+}
+#footer1 ul{
+	width: 20%;
+	height: 230px;
+	float: left;
+	margin-top: 16px;
+}
+#footer1 ul li:first-child a{
+	color: black;
+	font-size: 14px;
+	font-weight: bolder;
+	line-height: 36px;
+}
+#footer1 ul li a{
+	font-size: 12px;
+	color: orange;
+	line-height: 24px;
+}
+#wrap-bottom{
+	width: 100%;
+	height: 224px;
+	background: #636363;
+	overflow: hidden;
+}
+#wrap-bottom p{
+	text-align: center;
+	font-size: 12px;
+	line-height: 24px;
+	color: #E4E4E4;
+}
+#wrap-bottom .first{
+	margin-top: 38px;
+}
+/************************右侧悬浮窗************************/
+#floating{
+	width: 250px;
+	height: 293px;
+	position: absolute;
+	right: 0;
+	top: 150px;
+	color: white;
+	z-index: 6;
+}
+#floating .online{
+	width: 20px;
+	height: 72px;
+	background: #ffb10d url(../img/dialog.png) no-repeat center 15px;
+	padding: 10px;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 12px;
+	position: absolute;
+	right: 0;
+	
+	
+}
+#floating .online span{
+	
+	text-align: center;
+	
+	position: absolute;
+	top: 30px;
+	right: 32px;
+	left: 15px;
+}
+#floating .show{
+	width: 188px;
+	height: 293px;
+	background: white;
+	border: 1px solid orange;
+	position: absolute;
+	top: 0;
+	right: 40px;
+	z-index: 6;
+	display: none;
+}
+#floating .show div{
+	color:black;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+}
+#floating .show div:first-child{
+	margin-top: 26px;
+}
+#floating .pre-salse{
+	height: 32px;
+	line-height: 32px;
+	background: url(../img/float-one.png) no-repeat 35px center;
+	color:#636363;
+	font-size: 14px;
+	margin-top: 20px;
+}
+#floating .next-salse{
+	height: 32px;
+	line-height: 32px;
+	background: url(../img/float-two.png) no-repeat 35px center;
+	margin-top: 20px;
+	color: #636363;
+	font-size: 14px;
+}
+#floating .show div:last-child{
+	margin-top: 15px;
+	
+}
+#floating .jiap{
+	display: block;
+	background: url(../img/fixed.png);
+	width: 8px;
+	height: 12px;
+}

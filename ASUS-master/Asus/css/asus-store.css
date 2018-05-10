@@ -1,0 +1,257 @@
+#wrap-logo{
+	background: white;
+	position: relative;
+	z-index: 6;
+}
+
+/*轮播图和广告图*/
+#wrap-banner{
+	width: 100%;
+	height: 390px;
+}
+#banner{
+	width: 97%;
+	height: 390px;
+	margin: 0 auto;
+	position: relative;
+}
+#box{
+	position: relative;
+}
+#banner .left{
+	width: 158px;
+	height: 389px;
+	background: #f9f9f9;
+	border:1px solid #E4E4E4 ;
+	border-top: none;
+	float: left;
+	position: relative;
+	z-index: 7;
+}
+#banner .left li{
+	width: 158px;
+	height: 48px;
+	position: relative;
+	z-index: 7;
+}
+#banner .left li a{
+	display: block;
+	color: #666666;
+	line-height: 45px;
+	font-size: 12px;
+	padding-left: 18px;
+	background: url(../img/store_left_jian.png) no-repeat 140px center;
+	position: relative;
+	z-index: 6;
+	
+}
+#banner .left li div{
+	width: 636px;
+	height: auto;
+	border: 2px solid orange;
+	background: white;
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 158px;
+	display:none;
+}
+#banner .left li a div{
+	border: 1px solid red;
+}
+#banner .left li div a{
+	background: none;
+	border: 0;
+	position: relative;
+}
+#banner .center{
+	width: 700px;
+	height: 360px;
+	margin: 20px 20px 0 20px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+#banner ul{
+	width: auto;
+	position: absolute;
+}
+#banner .center li{
+	float: left;
+}
+#banner .num .active{
+	background: orange;
+	color: white;
+}
+#banner .num li{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	color: orange;
+	text-align: center;
+	line-height: 20px;
+	margin-right: 8px;
+	cursor: pointer;
+}
+#banner .num{
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+	z-index: 3;
+}
+#banner .right{
+	width: 324px;
+	height: 360px;
+	float: left;
+	margin-top: 20px;
+}
+#banner .right a{
+	display: block;
+}
+/*商品列表*/
+#wrap-store{
+	width: 100%;
+	height: 2950px;
+	position: relative;
+	z-index: 6;
+}
+#store{
+	width: 97%;
+	height: 2950px;
+	margin: 0 auto;
+}
+#store .title{
+	width: 100%;
+	height: 48px;
+	border: 1px solid #EBEBEB;
+	background: #f9f9f9;
+	margin-top: 30px;
+	float: left;
+}
+#store .title h3{
+	font-size: 18px;
+	color: #fc6b00;
+	line-height: 48px;
+	padding-left: 22px;
+	float: left;
+}
+#store .title div{
+	float: right;
+	margin-right:16px;
+}
+#store .title a{
+	font-size: 12px;
+	padding: 0 7px;
+	line-height: 48px;
+}
+#store .title a:hover{
+	color: #619ef2;
+}
+#store .store-list{
+	height: 490px;
+	margin-top: 20px;
+	float: left;
+}
+#store .store-list-left{
+	width: 160px;
+	height: 490px;
+	background: #7C7C7C;
+	float: left;
+}
+
+#store .store-list-center{
+	width: 687px;
+	height: 490px;
+	margin: 0 20px;
+	float: left;
+}
+#store .store-list-center dl{
+	width: 165px;
+	height: 245px;
+	float: left;
+	margin-left: 6px;
+	position: relative;
+}
+#store .store-list-center dl dt{
+	margin-top: 10px;
+	text-align: center;
+	
+}
+#store .store-list-center dl dd{
+	color: red;
+	font-size: 12px;
+	text-align: center;
+}
+#store .store-list-center dl dd b{
+	font-size: 14px;
+}
+#store .store-list-center dl dd a{
+	display: block;
+	width: 165px;
+	height: 36px;
+	color: #666666;
+	font-size: 12px;
+	overflow: hidden;
+	margin-top: 20px;
+	line-height: 17px;
+	text-align: center;
+}
+#store .store-list-center img{
+	width: 160px;
+	height: 144px;
+}
+#store .store-list-right{
+	width: 325px;
+	height: 490px;
+	float: left;
+}
+#store .store-list-right h3{
+	height: 38px;
+	font-size: 12px;
+	border: 1px solid #E4E4E4;
+	background:#f9f9f9;
+	color: #7C7C7C;
+	line-height: 38px;
+	padding-left: 8px;
+}
+.store-list-left li{
+	height: 120px;
+}
+.store-list-left li:first-child{
+	height: 250px;
+}
+#store .store-list-right dl{
+	height: 70px;
+	margin-top: 15px;
+	position: relative;
+}
+#store .store-list-right dt{
+	width: 84px;
+	height: 70px;
+	float: left;
+	margin-left: 10px;
+}
+#store .store-list-right dt img{
+	width: 100%;
+	height: 100%;
+}
+#store .store-list-right dd{
+	float: left;
+	width: 200px;
+	height: 32px;
+	font-size: 12px;
+	color: #7C7C7C;
+	padding-left: 17px;
+	overflow: hidden;
+	margin-top:10px;
+}
+#store .store-list-right dd a{
+	color: #7C7C7C;
+}
+#store .store-list-right dd b{
+	color: red;
+	font-size: 14px;
+	
+}
+
+

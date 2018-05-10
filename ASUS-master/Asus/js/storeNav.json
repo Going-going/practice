@@ -1,0 +1,59 @@
+[
+	{
+		"title": "笔记本电脑",
+		"childtitle": [{
+			"title":"玩家国度笔记本"
+			},{"title":"翻转变形笔记本"},{"title":"灵耀轻薄笔记本"},{"title":"商用笔记本"},{"title":"游戏笔记本"},{
+				"title":"办公娱乐",
+				"link":["效能先锋A/K/X系列", "学生助手E系列", "大屏影音N/V系列"]
+			}]
+		
+	},{
+		"title": "整机产品",
+		"childtitle": [{
+				"title":"一体机",
+				"link":["效能先锋A/K/X系列", "学生助手E系列", "大屏影音N/V系列"]
+			},{
+				"title":"台式机",
+				"link":["傲世一体机-ZenAiO系列","Vivo一体机-V系列","如意一体机-ET系列"]
+			}]
+		
+	},{
+		"title": "手机/平板/数码",
+		"childtitle": [{
+				"title":"智能手机",
+				"link": ["ZenFone系列","ZenFone系列"]
+			},{"title":"平板电脑"},{
+				"title":"智能设备",
+				"link": ["智能手表"]
+			}]
+	},{
+		"title": "DIY外设",
+		"childtitle": [{
+				"title": "主板",
+				"link":["傲世一体机-ZenAiO系列","Vivo一体机-V系列","如意一体机-ET系列"]
+			},{"title": "显卡"},{"title": "声卡"},{
+				"title": "显示器",
+				"link":["傲世一体机-ZenAiO系列","Vivo一体机-V系列","如意一体机-ET系列"]
+			},{
+				"title": "光驱/刻录机",
+				"link":["傲世一体机-ZenAiO系列","Vivo一体机-V系列","如意一体机-ET系列"]
+			}]
+	},{
+		"title": "网络产品",
+		"childtitle": [{"title": "路由器"},{"title": "无线网卡"}]
+	},{
+		"title": "办公产品",
+		"childtitle": [{"title": "投影仪"},{"title": "MiniPC"}]
+	},{
+		"title": "周边产品",
+		"childtitle": [{
+				"title": "键盘/鼠标",
+				"link":["傲世一体机-ZenAiO系列","Vivo一体机-V系列","如意一体机-ET系列"]
+			},{
+				"title": "笔记本配件"
+			}]
+	},{
+		"title": "服务产品"
+	}
+]

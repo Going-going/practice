@@ -1,0 +1,303 @@
+/*导航栏*/
+#wrap-nav{
+	width: 100%;
+	height: 60px;
+}
+#nav{
+	width: 93%;
+	height: 60px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 6;
+}
+#nav h1{
+	float:left;
+	width:107px;
+	height: 23px;
+	margin-top: 18px;
+}
+#nav h1 img{
+	float: left;
+}
+#nav .nav{
+	position: relative;
+	z-index: 6;
+}
+#nav li{
+	height: 60px;
+	float: left;
+	line-height: 60px;
+	position: relative;
+	z-index: 2;
+}
+#nav li:first-child{
+	margin-left: 35px;
+}
+#nav li a{
+	padding: 0 30px;
+	font-size: 14px;
+	
+	text-align:center;
+}
+#nav .border0{
+	width: 0;
+	height: 0px;
+	
+	position: absolute;
+	left: 0;
+	top: 57px;
+	z-index: 1;
+	list-style: none;
+}
+#nav .nav_store{
+	width: 245px;
+	height: 500px;
+	background: red;
+	position: absolute;
+	top: 60px;
+	left: -25px;
+	display: none;
+}
+#nav input{
+	float: right;
+	width: 168px;
+	height: 28px;
+	margin-top: 17px;
+	border: 1px solid #e4e4e4;
+}
+#nav i{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	position: absolute;
+	right: 8px;
+	top: 23px;
+	background: url(../img/loup.png) no-repeat center center;
+	cursor: pointer;
+}
+#nav p{
+	font-size: 14px;
+	float: right;
+	margin: 20px;
+}
+/*广告栏*/
+#wrap-banner{
+	width: 100%;
+}
+#banner{
+	width: 100%;
+	height: 455px;
+	/*overflow: hidden;*/
+	margin: 0 auto;
+	position: relative;
+}
+#banner img{
+	height: 455px;
+}
+#banner ul{
+	height: 455px;
+	position: relative;
+	left: 0;
+	padding: 0;
+}
+#banner li{
+	width: auto;
+	height: 455px;
+	float: left;
+}
+#banner li a{
+	height: 455px;
+}
+#banner li a img{
+	width: 100%;
+	height: 455px;
+}
+#banner .dian{
+	width: 90px;
+	height: 20px;
+	z-index: 6;
+	position: absolute;
+	bottom: 20px;
+	left: 46%;
+}
+#banner .dian a{
+	display: block;
+	width: 10px;
+	height: 10px;
+	line-height: 10px;
+	border-radius: 5px;
+	margin-left: 10px;
+	float: left;
+	background: #E4E4E4;
+	text-align: center;
+	font-size: 12px;
+}
+#banner .dian .active{
+	/*box-shanow: 水平方向偏移  垂直方向偏移  模糊半径   扩展半径  颜色   位置 */
+	background: orange;
+}
+/*广告栏下面的展示栏*/
+#wrap-show{
+	width: 100%;
+	height: 155px;
+}
+#wrap-show li{
+	float: left;
+	width: 33%;
+	height: 151px;
+	margin: 0.15%;
+}
+#wrap-show li a{
+	display: block;
+	width: 100%;
+	height: 151px;
+}
+#wrap-show li:first-child a{
+	background: url(../img/show_bg1.png) no-repeat 248px center #E4E4E4;
+	background-size: 130px 130px;
+}
+#wrap-show li:nth-of-type(2) a{
+	background: url(../img/show_bg2.png) no-repeat 268px center #E4E4E4;
+	background-size: 130px 130px;
+}
+#wrap-show li:last-child a{
+	background: url(../img/show_bg3.png) no-repeat 268px center #E4E4E4;
+	background-size: 130px 130px;
+}
+#wrap-show li img{
+	width: 138px;
+	margin-top: 34px;
+	margin-left: 50px;
+}
+#wrap-show li p{
+	font-size: 12px;
+	text-align: center;
+	width: 130px;
+	margin-top: 13px;
+	margin-left: 50px;
+}
+/*广告栏下*/
+#wrap-banner1{
+	width: 100%;
+	height: 455px;
+}
+#banner1{
+	width: 100%;
+	height: 455px;
+	background: url(../img/banner_img1.jpg) no-repeat center center;
+	background-size: 100% 100%;
+}
+#banner1 div{
+	width: 318px;
+	height: 147px;
+	float: right;
+	color: white;
+	margin-right: 100px;
+	margin-top: 130px;
+}
+#banner1 div p{
+	margin-top: 10px;
+}
+#banner1 div p:nth-of-type(2){
+	font-size: 50px;
+}
+#banner1 div img{
+	width: 100%;
+	height: 100%;
+}
+/*footer*/
+#wrap-footer{
+	width: 100%;
+	height: 442px;
+	background: #ebebeb;
+	margin-top: 2px;
+}
+#footer{
+	width: 93%;
+	height: 420px;
+	margin: 0 auto;
+}
+#footer ul{
+	width: 25%;
+	height: 298px;
+	float: left;
+	margin-top: 26px;
+}
+#footer ul li:first-child{
+	font-size: 16px;
+	line-height: 44px;
+	color:#474747;
+}
+#footer li a{
+	font-size: 12px;
+	line-height: 22px;
+	color: #7c7c7c;
+	padding-left: 3px;
+}
+#footer li a:hover{
+	color: #000;
+}
+#footer .community div{
+	width: 100%;
+	height: 42px;
+}
+#footer .community div a{
+	display: block;
+	width: 42px;
+	height: 42px;
+	float: left;
+	background: url(../img/weibo.png);
+	margin: 0 5px;
+}
+#footer .community div a:nth-of-type(2){
+	background: url(../img/renren.png);
+}
+#footer .community div a:last-child{
+	background: url(../img/weixin.png);
+}
+#footer .footer-bottom{
+	width: 100%;
+	height: 26px;
+	float: left;
+	margin-top: 55px;
+}
+#footer .footer-bottom p{
+	font-size: 12px;
+	line-height: 26px;
+	padding-left: 23px;
+	background: url(../img/china.png) no-repeat left center;
+	float: left;
+}
+#footer .footer-bottom p a:hover{
+	color: cornflowerblue;
+}
+#footer .footer-bottom ol{
+	float:right;
+}
+#footer .footer-bottom ol li{
+	float: left;
+	color: #7C7C7C;
+}
+#footer .footer-bottom li:last-child{
+	color: #7C7C7C;
+	font-size: 12px;
+	line-height: 24px;
+	padding: 0 8px;
+}
+#footer .footer-bottom ol li a{
+	padding: 0 8px;
+}
+#wrap-footer .brand{
+	float: left;
+	height: 24px;
+	width: 100%;
+	background: #E4E4E4;
+	text-align: center;
+	position: relative;
+}
+#wrap-footer .brand img{
+	width: 64px;
+	height: 24px;
+	position: absolute;
+	top: 0px;
+}

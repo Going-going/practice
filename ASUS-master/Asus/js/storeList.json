@@ -1,0 +1,348 @@
+[
+	{
+		"left":[{"url": "../img/1F-left-img1.jpg"},{"url": "../img/1F-left-img2.jpg"},{"url": "../img/1F-left-img3.jpg"}],
+		"center":[{
+					"id": "1F-center1",
+					"url": "../img/1F-center-img1.jpg",
+					"des": "【开学特卖】华硕U410UQ 14英寸窄边框轻薄本（Windows 10 Home / i5-7200U / 4G / 500G / 940MX 2G / FHD/Office2016）",
+					"price": "￥5349.00"
+				},{
+					"id": "1F-center2",
+					"url": "../img/1F-center-img2.jpg",
+					"des": "【开学特卖】U5000UX 灵耀轻薄全固态笔记本(Windows 10 Home / i5-7200U / GTX 950M / 4GB内存 / 256GB SSD)-灰色",
+					"price": "￥5949.00"
+				},{
+					"id": "1F-center3",
+					"url": "../img/1F-center-img4.jpg",
+					"des": "【开学放价】A456UR-效能先锋笔记本（Windows 10 Home / i5-7200U / 4GB / 500GB / Office 2016）",
+					"price": "￥4199.00"
+				},{
+					"id": "1F-center4",
+					"url": "../img/1F-center-img4.jpg",
+					"des": "【开学放价】A556UR娱乐办公笔记本（Windows 10 Home/i5-7200U/4G/500G/930MX 2G/Office2016/FHD/无光驱）-深棕色",
+					"price": "￥4349.00"
+				},{
+					"id": "1F-center5",
+					"url": "../img/1F-center-img5.jpg",
+					"des": "Zenbook 3U-灵耀3系列轻薄笔记本（Windows 10 Home/i5-7200U/8GB/256GB SSD）",
+					"price": "￥7999.00"
+				},{
+					"id": "1F-center6",
+					"url": "../img/1F-center-img6.jpg",
+					"des": "T303UA-灵焕3Pro系列变形笔记本（Windows 10 Home/i5-6200U/8GB/256GB SSD）-金色",
+					"price": "￥7599.00"
+				},{
+					"id": "1F-center7",
+					"url": "../img/1F-center-img7.gif",
+					"des": "【开学特卖】U4000UQ-灵耀系列轻薄笔记本（Windows 10home/i7-7500U/8GB内存/512 SSD/窄边框/office 2016）",
+					"price": "￥6999.00"
+				},{
+					"id": "1F-center8",
+					"url": "../img/1F-center-img8.jpg",
+					"des": "【今日爆款】F540UP-效能先锋笔记本（Windows 10 Home/i5-7200U/4GB内存/1TB硬盘/AMD R5-M420/office 2016）-黑色",
+					"price": "￥4299.00"
+				}],
+		"right":[{
+					"id": "1F-right1",
+					"url": "../img/1F-right-img1.jpg",
+					"des": "【直降400】新碉堡机 原厂固态",
+					"price": "￥5299.00"
+				},{
+					"id": "1F-right2",
+					"url": "../img/1F-right-img2.jpg",
+					"des": "【夜市直降】游戏主机 海量硬盘",
+					"price": "￥3299.00"
+				},{
+					"id": "1F-right3",
+					"url": "../img/1F-right-img3.jpg",
+					"des": "【直降600】颜值美机 时尚代言",
+					"price": "￥6299.00"
+				},{
+					"id": "1F-right4",
+					"url": "../img/1F-right-img3.jpg",
+					"des": "【直降400】商务用机 就是要赢",
+					"price": "￥4299.00"
+				},{
+					"id": "1F-right5",
+					"url": "../img/1F-right-img5.jpg",
+					"des": "【新品】稳定致胜 轻薄便携",
+					"price": "￥5299.00"
+				}]
+	},{
+		"left":[{"url": "../img/2F-left-img1.jpg"},{"url": "../img/2F-left-img2.jpg"},{"url": "../img/2F-left-img3.jpg"}],
+		"center":[{
+						"id": "2F-center1",
+						"url": "../img/2F-center-img1.jpg",
+						"des": "【开学特卖】华硕U410UQ 14英寸窄边框轻薄本（Windows 10 Home / i5-7200U / 4G / 500G / 940MX 2G / FHD/Office2016）",
+						"price": "￥5349.00"
+					},{
+						"id": "2F-center2",
+						"url": "../img/2F-center-img2.jpg",
+						"des": "【开学特卖】U5000UX 灵耀轻薄全固态笔记本(Windows 10 Home / i5-7200U / GTX 950M / 4GB内存 / 256GB SSD)-灰色",
+						"price": "￥5949.00"
+					},{
+						"id": "-center3",
+						"url": "../img/2F-center-img4.jpg",
+						"des": "【开学放价】A456UR-效能先锋笔记本（Windows 10 Home / i5-7200U / 4GB / 500GB / Office 2016）",
+						"price": "￥4199.00"
+					},{
+						"id": "2F-center4",
+						"url": "../img/2F-center-img4.jpg",
+						"des": "【开学放价】A556UR娱乐办公笔记本（Windows 10 Home/i5-7200U/4G/500G/930MX 2G/Office2016/FHD/无光驱）-深棕色",
+						"price": "￥4349.00"
+					},{
+						"id": "2F-center5",
+						"url": "../img/2F-center-img5.jpg",
+						"des": "Zenbook 3U-灵耀3系列轻薄笔记本（Windows 10 Home/i5-7200U/8GB/256GB SSD）",
+						"price": "￥7999.00"
+					},{
+						"id": "2F-center6",
+						"url": "../img/2F-center-img6.jpg",
+						"des": "T303UA-灵焕3Pro系列变形笔记本（Windows 10 Home/i5-6200U/8GB/256GB SSD）-金色",
+						"price": "￥7599.00"
+					},{
+						"id": "2F-center7",
+						"url": "../img/2F-center-img7.jpg",
+						"des": "【开学特卖】U4000UQ-灵耀系列轻薄笔记本（Windows 10home/i7-7500U/8GB内存/512 SSD/窄边框/office 2016）",
+						"price": "￥6999.00"
+					},{
+						"id": "2F-center8",
+						"url": "../img/2F-center-img8.jpg",
+						"des": "【今日爆款】F540UP-效能先锋笔记本（Windows 10 Home/i5-7200U/4GB内存/1TB硬盘/AMD R5-M420/office 2016）-黑色",
+						"price": "￥4299.00"
+					}],
+		"right":[{
+						"id": "2F-right1",
+						"url": "../img/2F-right-img1.jpg",
+						"des": "【限时秒杀】FL5900UQ- 顽石系列笔记本（Windows 10 Home/i7-7500U/940MX/4GB/1TB/带Office2016)",
+						"price": "￥5299.00"
+					},{
+						"id": "2F-right2",
+						"url": "../img/2F-right-img2.jpg",
+						"des": "【限时秒杀】FL5900UQ- 顽石系列笔记本（Windows 10 Home/i7-7500U/940MX/4GB/1TB/带Office2016)",
+						"price": "￥3299.00"
+					},{
+						"id": "2F-right3",
+						"url": "../img/2F-right-img3.jpg",
+						"des": "【限时秒杀】FL5900UQ- 顽石系列笔记本（Windows 10 Home/i7-7500U/940MX/4GB/1TB/带Office2016)",
+						"price": "￥6299.00"
+					},{
+						"id": "2F-right4",
+						"url": "../img/2F-right-img3.jpg",
+						"des": "【限时秒杀】FL5900UQ- 顽石系列笔记本（Windows 10 Home/i7-7500U/940MX/4GB/1TB/带Office2016)",
+						"price": "￥4299.00"
+					},{
+						"id": "2F-right5",
+						"url": "../img/3F-right-img5.jpg",
+						"des": "【限时秒杀】FL5900UQ- 顽石系列笔记本（Windows 10 Home/i7-7500U/940MX/4GB/1TB/带Office2016)",
+						"price": "￥5299.00"
+					}]
+	},{
+		"left":[{"url": "../img/3F-left-img1.jpg"},{"url": "../img/3F-left-img2.jpg"},{"url": "../img/3F-left-img3.jpg"}],
+		"center":[{
+						"id": "3F-center1",
+						"url": "../img/3F-center-img1.jpg",
+						"des": "【开学特卖】华硕U410UQ 14英寸窄边框轻薄本（Windows 10 Home / i5-7200U / 4G / 500G / 940MX 2G / FHD/Office2016）",
+						"price": "￥5349.00"
+					},{
+						"id": "3F-center2",
+						"url": "../img/3F-center-img2.jpg",
+						"des": "【开学特卖】U5000UX 灵耀轻薄全固态笔记本(Windows 10 Home / i5-7200U / GTX 950M / 4GB内存 / 256GB SSD)-灰色",
+						"price": "￥5949.00"
+					},{
+						"id": "-center3",
+						"url": "../img/3F-center-img4.jpg",
+						"des": "【开学放价】A456UR-效能先锋笔记本（Windows 10 Home / i5-7200U / 4GB / 500GB / Office 2016）",
+						"price": "￥4199.00"
+					},{
+						"id": "3F-center4",
+						"url": "../img/3F-center-img4.jpg",
+						"des": "【开学放价】A556UR娱乐办公笔记本（Windows 10 Home/i5-7200U/4G/500G/930MX 2G/Office2016/FHD/无光驱）-深棕色",
+						"price": "￥4349.00"
+					},{
+						"id": "3F-center5",
+						"url": "../img/3F-center-img5.jpg",
+						"des": "Zenbook 3U-灵耀3系列轻薄笔记本（Windows 10 Home/i5-7200U/8GB/256GB SSD）",
+						"price": "￥7999.00"
+					},{
+						"id": "3F-center6",
+						"url": "../img/3F-center-img6.jpg",
+						"des": "T303UA-灵焕3Pro系列变形笔记本（Windows 10 Home/i5-6200U/8GB/256GB SSD）-金色",
+						"price": "￥7599.00"
+					},{
+						"id": "3F-center7",
+						"url": "../img/3F-center-img7.jpg",
+						"des": "【开学特卖】U4000UQ-灵耀系列轻薄笔记本（Windows 10home/i7-7500U/8GB内存/512 SSD/窄边框/office 2016）",
+						"price": "￥6999.00"
+					},{
+						"id": "3F-center8",
+						"url": "../img/3F-center-img8.jpg",
+						"des": "【今日爆款】F540UP-效能先锋笔记本（Windows 10 Home/i5-7200U/4GB内存/1TB硬盘/AMD R5-M420/office 2016）-黑色",
+						"price": "￥4299.00"
+					}],
+		"right":[{
+						"id": "3F-right1",
+						"url": "../img/3F-right-img1.jpg",
+						"des": "【直降400】新碉堡机 原厂固态",
+						"price": "￥5299.00"
+					},{
+						"id": "3F-right2",
+						"url": "../img/3F-right-img2.jpg",
+						"des": "【夜市直降】游戏主机 海量硬盘",
+						"price": "￥3299.00"
+					},{
+						"id": "3F-right3",
+						"url": "../img/3F-right-img3.jpg",
+						"des": "【直降600】颜值美机 时尚代言",
+						"price": "￥6299.00"
+					},{
+						"id": "3F-right4",
+						"url": "../img/3F-right-img3.jpg",
+						"des": "【直降400】商务用机 就是要赢",
+						"price": "￥4299.00"
+					},{
+						"id": "3F-right5",
+						"url": "../img/3F-right-img5.jpg",
+						"des": "【新品】稳定致胜 轻薄便携",
+						"price": "￥5299.00"
+					}]
+	},{
+		"left":[{"url": "../img/4F-left-img1.jpg"},{"url": "../img/4F-left-img2.jpg"},{"url": "../img/4F-left-img3.jpg"}],
+		"center":[{
+						"id": "4F-center1",
+						"url": "../img/4F-center-img1.jpg",
+						"des": "【开学特卖】华硕U410UQ 14英寸窄边框轻薄本（Windows 10 Home / i5-7200U / 4G / 500G / 940MX 2G / FHD/Office2016）",
+						"price": "￥5349.00"
+					},{
+						"id": "4F-center2",
+						"url": "../img/4F-center-img2.jpg",
+						"des": "【开学特卖】U5000UX 灵耀轻薄全固态笔记本(Windows 10 Home / i5-7200U / GTX 950M / 4GB内存 / 256GB SSD)-灰色",
+						"price": "￥5949.00"
+					},{
+						"id": "-center3",
+						"url": "../img/4F-center-img4.jpg",
+						"des": "【开学放价】A456UR-效能先锋笔记本（Windows 10 Home / i5-7200U / 4GB / 500GB / Office 2016）",
+						"price": "￥4199.00"
+					},{
+						"id": "4F-center4",
+						"url": "../img/4F-center-img4.jpg",
+						"des": "【开学放价】A556UR娱乐办公笔记本（Windows 10 Home/i5-7200U/4G/500G/930MX 2G/Office2016/FHD/无光驱）-深棕色",
+						"price": "￥4349.00"
+					},{
+						"id": "4F-center5",
+						"url": "../img/4F-center-img5.jpg",
+						"des": "Zenbook 3U-灵耀3系列轻薄笔记本（Windows 10 Home/i5-7200U/8GB/256GB SSD）",
+						"price": "￥7999.00"
+					},{
+						"id": "4F-center6",
+						"url": "../img/4F-center-img6.jpg",
+						"des": "T303UA-灵焕3Pro系列变形笔记本（Windows 10 Home/i5-6200U/8GB/256GB SSD）-金色",
+						"price": "￥7599.00"
+					},{
+						"id": "4F-center7",
+						"url": "../img/4F-center-img7.jpg",
+						"des": "【开学特卖】U4000UQ-灵耀系列轻薄笔记本（Windows 10home/i7-7500U/8GB内存/512 SSD/窄边框/office 2016）",
+						"price": "￥6999.00"
+					},{
+						"id": "4F-center8",
+						"url": "../img/4F-center-img8.jpg",
+						"des": "【今日爆款】F540UP-效能先锋笔记本（Windows 10 Home/i5-7200U/4GB内存/1TB硬盘/AMD R5-M420/office 2016）-黑色",
+						"price": "￥4299.00"
+					}],
+		"right":[{
+						"id": "4F-right1",
+						"url": "../img/4F-right-img1.jpg",
+						"des": "【直降400】新碉堡机 原厂固态",
+						"price": "￥5299.00"
+					},{
+						"id": "4F-right2",
+						"url": "../img/4F-right-img2.jpg",
+						"des": "【夜市直降】游戏主机 海量硬盘",
+						"price": "￥3299.00"
+					},{
+						"id": "4F-right3",
+						"url": "../img/4F-right-img3.jpg",
+						"des": "【直降600】颜值美机 时尚代言",
+						"price": "￥6299.00"
+					},{
+						"id": "4F-right4",
+						"url": "../img/4F-right-img3.jpg",
+						"des": "【直降400】商务用机 就是要赢",
+						"price": "￥4299.00"
+					},{
+						"id": "4F-right5",
+						"url": "../img/4F-right-img5.jpg",
+						"des": "【新品】稳定致胜 轻薄便携",
+						"price": "￥5299.00"
+					}]
+	},{
+		"left":[{"url": "../img/5F-left-img1.jpg"},{"url": "../img/5F-left-img2.jpg"},{"url": "../img/5F-left-img3.jpg"}],
+		"center":[{
+						"id": "5F-center1",
+						"url": "../img/5F-center-img1.jpg",
+						"des": "【开学特卖】华硕U410UQ 14英寸窄边框轻薄本（Windows 10 Home / i5-7200U / 4G / 500G / 940MX 2G / FHD/Office2016）",
+						"price": "￥5349.00"
+					},{
+						"id": "5F-center2",
+						"url": "../img/5F-center-img2.jpg",
+						"des": "【开学特卖】U5000UX 灵耀轻薄全固态笔记本(Windows 10 Home / i5-7200U / GTX 950M / 4GB内存 / 256GB SSD)-灰色",
+						"price": "￥5949.00"
+					},{
+						"id": "-center3",
+						"url": "../img/5F-center-img4.jpg",
+						"des": "【开学放价】A456UR-效能先锋笔记本（Windows 10 Home / i5-7200U / 4GB / 500GB / Office 2016）",
+						"price": "￥4199.00"
+					},{
+						"id": "5F-center4",
+						"url": "../img/5F-center-img4.jpg",
+						"des": "【开学放价】A556UR娱乐办公笔记本（Windows 10 Home/i5-7200U/4G/500G/930MX 2G/Office2016/FHD/无光驱）-深棕色",
+						"price": "￥4349.00"
+					},{
+						"id": "5F-center5",
+						"url": "../img/5F-center-img5.jpg",
+						"des": "Zenbook 3U-灵耀3系列轻薄笔记本（Windows 10 Home/i5-7200U/8GB/256GB SSD）",
+						"price": "￥7999.00"
+					},{
+						"id": "5F-center6",
+						"url": "../img/5F-center-img6.jpg",
+						"des": "T303UA-灵焕3Pro系列变形笔记本（Windows 10 Home/i5-6200U/8GB/256GB SSD）-金色",
+						"price": "￥7599.00"
+					},{
+						"id": "5F-center7",
+						"url": "../img/5F-center-img7.png",
+						"des": "【开学特卖】U4000UQ-灵耀系列轻薄笔记本（Windows 10home/i7-7500U/8GB内存/512 SSD/窄边框/office 2016）",
+						"price": "￥6999.00"
+					},{
+						"id": "5F-center8",
+						"url": "../img/5F-center-img8.jpg",
+						"des": "【今日爆款】F540UP-效能先锋笔记本（Windows 10 Home/i5-7200U/4GB内存/1TB硬盘/AMD R5-M420/office 2016）-黑色",
+						"price": "￥4299.00"
+					}],
+		"right":[{
+						"id": "5F-right1",
+						"url": "../img/5F-right-img1.jpg",
+						"des": "【直降400】新碉堡机 原厂固态",
+						"price": "￥5299.00"
+					},{
+						"id": "5F-right2",
+						"url": "../img/5F-right-img2.jpg",
+						"des": "【夜市直降】游戏主机 海量硬盘",
+						"price": "￥3299.00"
+					},{
+						"id": "5F-right3",
+						"url": "../img/5F-right-img3.jpg",
+						"des": "【直降600】颜值美机 时尚代言",
+						"price": "￥6299.00"
+					},{
+						"id": "5F-right4",
+						"url": "../img/5F-right-img3.jpg",
+						"des": "【直降400】商务用机 就是要赢",
+						"price": "￥4299.00"
+					},{
+						"id": "5F-right5",
+						"url": "../img/5F-right-img5.jpg",
+						"des": "【新品】稳定致胜 轻薄便携",
+						"price": "￥5299.00"
+					}]
+	}
+]

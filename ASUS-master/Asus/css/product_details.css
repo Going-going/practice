@@ -1,0 +1,397 @@
+#wrap-box{
+	width: 100%;
+	height: 684px;
+}
+#store-box{
+	width: 97%;
+	height: 684px;
+	margin: 0 auto;
+	/*overflow: hidden;*/
+	position: relative;
+}
+#store-box .map{
+	margin: 22px 0;
+	font-size: 12px;
+}
+#store-box .store-des p{
+	color: red;
+	font-size: 12px;
+	padding-left:10px ;
+}
+#store-box .store-des-img{
+	width: 420px;
+	height: 525px;
+	margin-top: 14px;
+	position: relative;
+	float: left;
+}
+#store-box .store-des-img .store-des-Limg{
+	width: 400px;
+	height: 400px;
+	border: 1px solid #E4E4E4;
+	overflow: hidden;
+}
+#store-box .store-des-img .store-des-Limg img{
+	width: 100%;
+	height: 100%;
+}
+#store-box .store-des-img .big-img{
+	width: 400px;
+	height: 400px;
+	border: 1px solid #A4A4A4;
+	position: absolute;
+	top: 20px;
+	left: 420px;
+	display: none;
+	overflow: hidden;
+}
+#store-box .store-des-img .big-img img{
+	position: absolute;
+	z-index: 6;
+}
+#store-box .store-des-img .small-img{
+	width: 400px;
+	height: 56px;
+	border: 1px solid #A4A4A4;
+	position: absolute;
+	top: 420px;
+	padding:10px 0;
+	overflow: hidden;
+}
+#store-box .store-des-img .small-img div{
+	float: left;
+	position: relative;
+	z-index: 6;
+}
+#store-box .store-des-img .small-img li{
+	width: 62px;
+	height: 62px;
+	float: left;
+	margin-left: 8px;
+	border: 1px solid #E4E4E4;
+}
+#store-box .store-des-img .small-img div:first-child{
+	width: 17px;
+	margin-left: 0;
+}
+#store-box .store-des-img .small-img ul{
+	width: 520px;
+	position: relative;
+}
+#store-box .store-des-img .small-img ul li:nth-of-type(1){
+	margin-left: 5px;
+}
+#store-box .store-des-img .small-img div:last-child{
+	position: absolute;
+	right: 0;
+	width: 17px;
+}
+#store-box .store-des-img .small-img li img{
+	width: 100%;
+	height: 100%;
+}
+#store-box .share{
+	width: 400px;
+	height: 30px;
+} 
+#store-box .share div{
+	width: 312px;
+	margin: 0 auto;
+}
+#store-box .share div span{
+	display: inline-block;
+	font-size: 12px;
+	line-height: 20px;
+	margin-top: 0;
+	position: relative;
+	top: -5px;
+}
+#store-box .share div a{
+	display: inline-block;
+	line-height: 30px;
+	margin-top: 5px;
+}
+/**********************************************/
+#store-box #store-des{
+	width: 65%;
+	height: 368px;
+	
+	float: right;
+	margin-top: 14px;
+}
+#store-box #store-des p{
+	color: black;
+	line-height: 22px;
+}
+#store-box #store-des p b{
+	display:inline-block;
+	color: red;
+	font-size: 16px;
+	padding-left: 10px;
+}
+#store-des p span{
+	display: inline-block
+	font-size: 12px;
+	color: #e4e4e4;
+	padding-left:5px;
+}
+#store-box #store-des hr{
+	height: 1px;
+	border: none;
+	border-top: 1px dashed #BABABA;
+}
+#store-des .donation{
+	height: 30px;
+	position: relative;
+}
+#store-des .donation span{
+	display: inline-block;
+	font-size: 12px;
+	padding-left: 12px;
+}
+#store-des .donation p{
+	width: 300px;
+	height: 22px;
+	position: absolute;
+	top: 0;
+	left: 60px;
+}
+#store-des .donation p:last-child{
+	top: 20px;
+}
+#store-des .donation p span{
+	color: black;
+	position: relative;
+	top: -5px;
+}
+#store-des .donation p img{
+	width: 24px;
+	height: 24px;
+}
+#store-des .donation p:last-child img{
+	margin-top: 8px;
+}
+#store-des .donation p:last-child span{
+	position: relative;
+	top: -8px;
+}
+#store-des .promote{
+	width: 800px;
+	height: 60px;
+	margin-top:30px;
+	border-left: 1px solid #A4A4A4;
+	border-bottom: 1px solid #A4A4A4
+}
+#store-des .promote p:first-child{
+	width: 68px;
+	height: 24px;
+	border-right: 1px solid #A4A4A4;
+	border-bottom: 3px solid #fff;
+	border-top: 2px solid red;
+	position: relative;
+	z-index: 2;
+}
+#store-des .promote p:last-child{
+	width: 800px;
+	height: 34px;
+	border-right: 1px solid #E4E4E4;
+	border-top: 1px solid #A4A4A4;
+	position: relative;
+	top: -2px;
+	padding-left: 5px;
+}
+#store-des .promote p:last-child span{
+	display: inline-block;
+	width: 34px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: white;
+	background: #d80808;
+	margin-top: 8px;
+}
+#store-des .select{
+	width: 800px;
+	height: 140px;
+	border: 1px solid lightpink;
+	margin-top: 20px;
+	font-size: 12px;
+	position: relative;
+	background: #ffe6ca;
+	
+}
+#store-des .select .btn{
+	border:2px solid #d80808;
+	background: url(../img/bg-border.png) no-repeat right bottom;
+}
+#store-des .select div{
+	margin-top: 10px;
+	padding-left: 26px;
+}
+#store-des .select div button{
+	width: 50px;
+	height: 22px;
+	border: 2px solid #E4E4E4;
+	background: #f6f6f6;
+	margin-left: 10px;
+	font-size: 10px;
+}
+#store-des .select span{
+	position: relative;
+	top: -5px;
+	margin-left: 25px;
+}
+#store-des .select .count{
+	
+	display: inline-block;
+	width: 72px;
+	height: 21px;
+	border: 1px solid #636363;,
+	margin-top: 0;
+	margin-left: 10px;
+	padding-left: 0;
+}
+#store-des .select .count b{
+	display:inline-block;
+	width: 20px;
+	height: 21px;
+	border-right: 1px solid #636363;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+#store-des .select .count span{
+	display: inline-block;
+	width: 30px;
+	height: 21px;
+	border-right: 1px solid #636363;
+	float: left;
+	margin-left: 0;
+	position: relative;
+	top: 0;
+	text-align: center;
+	line-height: 21px;
+	cursor: pointer;
+}
+#store-des .select .count b:last-child{
+	border: none;
+}
+#store-des .select .buy{
+	width: 126px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	background: #d51d27;
+	padding-left: 0;
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	left: 15px;
+	cursor: pointer;
+}
+#store-des .select .car{
+	width: 142px;
+	height: 42px;
+	background: #fc5209;
+	color: white;
+	text-align: center;
+	padding-left: 0;
+	line-height: 42px;
+	font-size: 16px;
+	position: absolute;
+	left: 160px;
+	cursor: pointer;
+}
+#store-des .select .addCar{
+	width: 300px;
+	height: 154px;
+	border: 1px solid #E4E4E4;
+	position: absolute;
+	top: 120px;
+	left: 160px;
+	padding:0;
+	box-shadow: 2px 3px 3px 3px #E4E4E4,-2px 3px 3px 3px #E4E4E4;
+	display: none;
+}
+#store-des .select .addCar p{
+	height: 36px;
+	background: #E4E4E4;
+	
+}
+#store-des .select .addCar span{
+	display: inline-block;
+	line-height: 46px;
+	color: #474747;
+	font-size: 14px;
+	padding-left: 0;
+	margin-left: 0;
+}
+#store-des .select .addCar .close{
+	width: 20px;
+	height: 20px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #7C7C7C;
+	float: right;
+	margin-top: 8px;
+}
+#store-des .select .addCar div{
+	background: url(../img/dui.png) no-repeat left center;
+	margin-left: 80px;
+}
+#store-des .select .addCar div:nth-of-type(2), #store-des .select .addCar div:nth-of-type(3){
+	height: 24px;
+	background: none;
+	margin-left:0px;
+}
+#store-des .select .addCar div:nth-of-type(2) span{
+	display: inline-block;
+	line-height: 24px;
+	position: relative;
+	top: 0px;
+	color: red;
+}
+#store-des .select .addCar div:nth-of-type(3) a:first-child{
+	display: inline-block;
+	width: 70px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	border: 1px solid #A4A4A4;
+	background: #f4f4f4;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+#store-des .select .addCar div:nth-of-type(3) a:last-child{
+	display: inline-block;
+	width: 90px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	background: orangered;
+	color: white;
+}
+#store-des .select .saoyisao{
+	width: 80px;
+	height: 18px;
+	position: absolute;
+	left: 300px;
+	bottom: 20px;
+	background: url(../img/saoyisao.png) no-repeat right center;
+}
+}
+
+/***************************************************************/
+#wrap-details{
+	width: 100%;
+	height: auto;
+}
+#details{
+	width: 92%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+#details img{
+	width: 100%;
+	margin: 0 auto;
+}
