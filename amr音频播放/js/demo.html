@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>AMR decode/encode tests</title>
+    <script src="amrnb.js"></script>
+</head>
+
+<body>
+
+<p id="">
+    <button id="1" data-url="222.amr" class="sample-amr1">Play</button> <a href="http://lanjingapp.qtvnews.com/qdrat/file/downFile/10001029/video">yuan.amr</a>
+</p>
+<p id="">
+    <button id="1" data-url="222.amr" class="sample-amr1">Play</button> <a href="http://lanjingapp.qtvnews.com/qdrat/file/downFile/10001029/video">yuan.amr</a>
+</p>
+
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script>
+	var gAudioContext = '';
+    var ctx = '';
+	$(".sample-amr1").on("click",function(){
+        if(!gAudioContext){
+            gAudioContext = new AudioContext();
+            ctx = gAudioContext;
+        }else{
+            ctx.close();
+            gAudioContext = new AudioContext();
+            ctx = gAudioContext;
+        }
+        
+		var $this = $(this);
+		fetchBlob($this.attr("data-url"), function(blob) {
+            playAmrBlob(blob);
+        });
+	})
+	var str = false;
+
+
+    function getAudioContext() {
+        if (!gAudioContext) {
+            gAudioContext = new AudioContext();
+        }
+        return gAudioContext;
+    }
+
+    function fetchBlob(url, callback) {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url);
+        xhr.responseType = 'blob';
+        xhr.onload = function() {
+            callback(this.response);
+        };
+        xhr.onerror = function() {
+            alert('Failed to fetch ' + url);
+        };
+        xhr.send();
+    }
+
+    function readBlob(blob, callback) {
+        var reader = new FileReader();
+        reader.onload = function(e) {
+            var data = new Uint8Array(e.target.result);
+            callback(data);
+        };
+        reader.readAsArrayBuffer(blob);
+    }
+
+    
+
+    function playAmrBlob(blob, callback) {
+        readBlob(blob, function(data) {
+            playAmrArray(data);
+        });
+    }
+
+    
+
+    function playAmrArray(array) {
+        var samples = AMR.decode(array);
+        if (!samples) {
+            alert('Failed to decode!');
+            return;
+        }
+        playPcm(samples);
+    }
+    
+    function playPcm(samples) {
+        console.log(ctx.state)
+        var src = ctx.createBufferSource();
+        var src1 = ctx.createMediaElementSource
+       
+        var gainNode = ctx.createGain();
+        var oscillator = ctx.createOscillator();
+        var buffer = ctx.createBuffer(1, samples.length, 8000);
+        if (buffer.copyToChannel) {
+            buffer.copyToChannel(samples, 0, 0)
+            //console.log(1)
+        } else {
+            var channelBuffer = buffer.getChannelData(0);
+            channelBuffer.set(samples);
+            //console.log(2)
+        }
+        
+        console.log(ctx)
+		//console.log(gainNode)
+        src.buffer = buffer;
+        
+        src.connect(ctx.destination);
+        
+        src.start();
+        var mute = $(".sample-amr1");    
+        
+    }
+
+</script>
+</body>
+</html>

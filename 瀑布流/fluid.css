@@ -1,0 +1,168 @@
+.m-ml-ms {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    float: left;
+    /*mescroll 打开布局*/
+    /*position: fixed;
+	top: 0;
+	left: 0;*/
+  }
+  .m-ml-ms img {
+    width: 100%;
+    height: 100%;
+  }
+  .m-ml-ms .ms-banner {
+    width: 100%;
+    height: 167px;
+  }
+  .m-ml-ms .ms-banner a {
+    display: block;
+    width: 100%;
+    height: 167px;
+  }
+  .m-ml-ms .ms-search {
+    width: 100%;
+    padding: 11px 0;
+    border-bottom: 1px solid #e4e4e4;
+  }
+  .m-ml-ms .ms-search input {
+    display: block;
+    width: 80%;
+    height: 30px;
+    border: 1px solid #e4e4e4;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 0 15px;
+    text-align: center;
+    font-size: 12px;
+    outline: none;
+    background: url(img/search_01.png) no-repeat 25% center;
+    background-size: 14px 14px;
+  }
+  .m-ml-ms .ms-list {
+    font-size: 0;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    padding-bottom: 45px;
+  }
+  .m-ml-ms .ms-list li {
+    display: inline-block;
+    width: 48%;
+    height: auto;
+    float: left;
+  }
+  .m-ml-ms .ms-list li .content {
+    font-size: 12px;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 9px;
+    padding-bottom: 4px;
+    box-shadow: 2px 2px 4px #e4e4e4;
+  }
+  .m-ml-ms .ms-list li:nth-of-type(2n-1) {
+    margin-right: 9px;
+  }
+  .m-ml-ms .ms-list li .showimg {
+    width: 100%;
+    height: 190px;
+  }
+  .m-ml-ms .ms-list li .info {
+    text-align: left;
+    padding: 0 5px;
+  }
+  .m-ml-ms .ms-list li .info p {
+    line-height: 20px;
+  }
+  .m-ml-ms .ms-list li .title {
+    font-weight: 600;
+    font-size: 12px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .m-ml-ms .ms-list li .desc {
+    width: 100%;
+    font-size: 12px;
+    color: #5c5c5c;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .m-ml-ms .ms-list li .label {
+    padding: 5px 0;
+  }
+  .m-ml-ms .ms-list li .label span {
+    margin-right: 4px;
+    font-size: 12px;
+    display: inline-block;
+    width: 28px;
+    height: 17px;
+    text-align: center;
+    line-height: 15px;
+  }
+  .m-ml-ms .ms-list li .label .yellow {
+    color: #f6c649;
+    border: 1px solid #f6c649;
+  }
+  .m-ml-ms .ms-list li .label .green {
+    color: #018934;
+    border: 1px solid #018934;
+  }
+  .m-ml-ms .ms-list li .label .red {
+    color: #ff2222;
+    border: 1px solid #ff2222;
+  }
+  .m-ml-ms .ms-list li .user {
+    font-size: 12px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .m-ml-ms .ms-list li .user .user-avator {
+    flex: 1;
+    font-size: 12px;
+  }
+  .m-ml-ms .ms-list li .user .user-avator img {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .m-ml-ms .ms-list li .user .user-avator span {
+    display: inline-block;
+    width: 65%;
+    line-height: 24px;
+    padding-left: 3px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .m-ml-ms .ms-list li .user .user-like {
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 16px;
+    text-align: right;
+    background: red;
+    background: url(img/like_03.png) no-repeat left center;
+    background-size: 14px 14px;
+  }
+  #load, #end   {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width:100%;height:35px;font-size:14px;display: none;
+      line-height: 35px;
+  }

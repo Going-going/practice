@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes"> 
+	<title>瀑布流</title>
+	<link rel="stylesheet" href="dist/style.css">
+	<link rel="stylesheet" href="fluid.css">
+</head>
+<body>
+	<div class="m-ml-ms">
+		<div class="ms-banner">
+            <div class="swiper-container banner-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="">
+                            <!-- <img class="swiper-lazy" data-src="../img/index/banner.png" alt=""> -->
+                            <img class="swiper-lazy" src="img/ms/default_slide.png" alt="">
+                            <div class="swiper-lazy-preloader"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img class="swiper-lazy" src="img/ms/default_slide.png" alt="">
+                            <div class="swiper-lazy-preloader"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-pagination banner-pagination"></div>
+            </div>
+        </div>
+        <div class="ms-search">
+        	<input type="text" placeholder="输入商品名、功效">
+        </div>
+        <ul class="ms-list" id="datalist">
+        	<li></li>
+            <li></li>
+            <div id="load">
+                正在加载...
+            </div>
+            <div id="end">
+                --end--
+            </div>
+        </ul>
+        
+	</div>
+</body>
+<script src="dist/public.js"></script>
+<script>
+	var imgH = $('.showimg').eq(0).width() +'px';
+	$('.showimg').css('height', imgH);
+	var msBanner = new Swiper('.banner-container', {
+		autoplay:  true,
+		lazy:true,
+        watchSlidesVisibility:true,
+		pagination: {
+            el: '.banner-pagination',
+            clickable :true,
+        },
+	})
+    // 瀑布流布局
+    var imgData = [],  //接收数据
+        totalPage = 0,	//总页数
+        curpage = 1;	//当前页数
+
+    function getList(curpage) {
+        $.ajax({
+            url: 'http://test.hisunflower.com/mobile/index.php?act=service_goods&op=goods_list',
+            type: 'get',
+            dataType: 'json',
+            async: false,
+            data: {
+                gc_id: '53',
+                curpage:curpage,
+                page: 10
+            },
+            success: function(res) {
+                imgData = res.datas.goods_list;
+                totalPage = res.datas.page_total;
+            },
+            error: function (err) { 
+                console.log(err);
+            }
+        })
+    }
+    
+    var $box = $("#datalist"),
+        $li = $box.find("li"),
+        index = -1;
+                
+//  fLoad(10);
+//  $(window).scroll(function() {
+//      if (curpage > 3){
+//          $('#load').hide();
+//          $('#end').fadeIn();
+//          return;
+//      } 
+//      var allTop = $(window).height() + $(document).scrollTop();
+//      console.log(allTop > $box.offset().top + $box.height() - 200);
+//      if (allTop > $box.offset().top + $box.height() - 200) {
+//          index = -1;
+//          curpage++;
+//          
+//          fLoad(10);
+//      }
+//  });
+
+    function fLoad(num) {
+        $('#load').fadeIn();
+        getList(curpage);
+        var length = index + num;
+        length = 9;
+        add();
+        function add() {
+            if (index < length) {
+                index++;
+            } else {
+                return;
+            }
+            var data = imgData[index];
+            var oImg = new Image();
+            oImg.src = data.goods_image;
+            var $div = $('<div class="content content'+index+'">'+
+                '<img class="showimg" src="img/425570072158576509.png" alt="">'+
+                    '<div class="info">'+
+                        '<p class="title">'+data.goods_name+'</p>'+
+                        '<p class="desc">'+data.goods_jingle+'</p>'+
+                        '<div class="label">'+
+                        '</div>'+
+                        '<div class="user">'+
+                            '<div class="user-avator">'+
+                                '<img src="img/tx.png" alt="">'+
+                                '<span>user'+data.goods_id+'</span>'+
+                            '</div>'+
+                            '<div class="user-like">'+ data.evaluation_count +
+                            '</div></div></div></div>');
+            $div.css("display", "none");
+            
+            findShort().append($div);
+            $div.fadeIn();
+            var label = $('.content' +index).find('.label');
+            var html = '';
+            if(data.icon){
+                for(var i =0; i< data.icon.length;i++){
+                    html += '<span class="yellow">'+data.icon[i]+'</span>'
+                }
+            }
+            label.html(html);
+            add();  
+        }
+    }
+
+function findShort() {
+    var obj;
+    var short = 99999;
+    $li.each(function(i) {
+        var height = $(this).height();
+        if (height < short) {
+            short = height;
+            obj = this;
+        }
+    });
+    return $(obj);
+}
+
+// mescroll加载 如果要打开 需要在m-ml-ms添加mescroll class和id
+	// var mescroll = new MeScroll('mescroll', {
+ //        down: {
+ //            offset: 40,
+ //        },
+ //        up: {
+ //            offset: 40,
+ //            loadFull: {
+ //                use: true,
+ //                delay: 500
+ //            },
+ //            clearEmptyId: "datalist",
+ //            callback: upCallback
+ //        }
+ //    })
+    // data 渲染的数据 appDomid 填充的盒子
+    function setDom(data, appDomid){
+        for(var i in data){
+            var str = `<img class="showimg" src="../img/ms/default.png" alt="">
+        		<div class="info">
+        			<p class="title">小白鞋神器清洁剂 拷贝 洁剂 2</p>
+        			<p class="desc">翰皇 小白鞋清洁剂小白鞋神鞋清洁剂小白鞋鞋清洁剂小白鞋 器 150ml</p>
+        			<div class="label">
+        				<span class="yellow">新品</span>
+        				<span class="green">洁面</span>
+        				<span class="red">折扣</span>
+        			</div>
+        			<div class="user">
+        				<div class="user-avator">
+        					<img src="../img/default.png" alt="">
+        					<span>23214324</span>
+        				</div>
+						<div class="user-like">
+							12432
+						</div>
+        			</div>
+        		</div>`
+            var Dl = document.createElement('div');
+            Dl.innerHTML = str;
+            
+            document.getElementById(appDomid).appendChild(Dl);
+        }
+    }
+
+    function getData(curpage, pagesize, successcb, errorcb){
+        $.ajax({
+            url: 'http://test.hisunflower.com/mobile/index.php?act=service_goods&op=goods_list',
+            type: 'get',
+            dataType: 'json',
+            async: true,
+            data: {
+                gc_id: '53',
+                curpage:curpage,
+                page: pagesize
+            },
+            success: function(res) {
+                console.log(res);
+                var dataArr = [];
+                if(res.code == 200){
+                    if(res.datas.goods_list){
+                        dataArr = res.datas.goods_list;
+                        successcb(dataArr);
+                        console.log(res.hasmore);
+                        if(!res.hasmore){
+                            mescroll.endSuccess(dataArr.length, res.hasmore);
+                        }  
+                    }
+                }else{
+                    errorcb()
+                }
+            },
+            error: function (err) { 
+                errorcb();
+             }
+        })
+    }
+
+    function upCallback(page) { 
+        getData(page.num, page.size, function(data){
+            mescroll.endSuccess(data.length);
+            setDom(data, 'datalist');
+        }, function(){
+            mescroll.endErr();
+        })
+
+     }
+</script>
+</html>
