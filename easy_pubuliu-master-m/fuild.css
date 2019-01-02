@@ -1,0 +1,58 @@
+*{
+    /*去除边距*/
+    margin:0;
+    padding: 0;
+    /*html性能优化:虚拟dom,如果一个html标签没有设置css样式,就是虚拟的,
+     所以无论设置多少层div都对性能没有影响*/
+}
+img{
+	display: block;
+	border: 0;
+}
+body{
+	position: relative;
+	 background: #fde36a;
+}
+#loading{
+	display: none;
+	height: 100px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    background: #fde36a;
+}
+#loading img{
+	display: inline-block;
+	height: 100px;
+}
+#wrap-box{
+    /*定位*/
+    position: relative;
+   
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+	visibility: hidden;
+}
+.box{
+    /*内边距*/
+    padding:15px 0 0 15px ;
+    float: left;
+    /*background: red;*/
+}
+.pic{
+    /*边框*/
+    width: 165px;
+    border:1px solid #dddddd;
+    border-radius: 10px;
+    box-shadow: 3px 6px 3px #E4E4E4, -3px 6px 3px #E4E4E4;
+    overflow: hidden;
+}
+.pic img{
+	width: 100%;
+    height: auto;
+}
