@@ -26,7 +26,8 @@ ul {
   position: relative;
 }
 ul li {
-  width: 49%;
+  width: 30%;
+  min-height: 50px;
   float: left;
   border: 1px solid red;
 }
