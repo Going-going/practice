@@ -66,14 +66,13 @@ function reachBottom() {
 	if(ulHeight-scrollTop <= clientHeight){
 		if(currpage < totalpage){
 			currpage++;
-			ajax('http://192.168.3.49:9000/booklist', pagesize, currpage);
+			ajax('http://127.0.0.1:9000/booklist', pagesize, currpage);
 		}
 	}
 } 
 
 window.onload = function() {
-	ajax('http://192.168.3.49:9000/booklist', pagesize, currpage);
-//	calculate();
+	ajax('http://127.0.0.1:9000/booklist', pagesize, currpage);
 }
 window.onscroll = function() {
 	reachBottom();
